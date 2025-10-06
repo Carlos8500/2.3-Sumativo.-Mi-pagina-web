@@ -1,0 +1,145 @@
+/*Selector de clase para el formato del titulo y el subtitulo principal*/
+.titulo{
+    background-color: black;
+    color: #ffa500;
+    padding: 8px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 15px;
+    border-width: 15px;
+    border-color: orange;
+    border-style: double;
+    font-family:'Trebuchet MS';
+    font-size: 25px;
+}
+
+/*Selector descendiente para el subtitulo de cada seccion*/
+section h2{
+    text-align: center;
+    padding: 20px;
+    border: 8px;
+    color: #ffa500;
+    background-color: black;
+    border-style:double;
+    border-color: orange;
+    font-family:Verdana;
+    font-size: 25px;
+    box-shadow:4px 4px 10px black;
+}
+
+/*Selector de clase utilizada para el posicionamiento y perzonalizacion del aside*/
+.aside{
+    width: 205px;
+    height: auto;
+    background-color: bisque;
+    position: absolute;
+    top: 8px;;
+    left: 1270px;
+    padding:10px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    border-color:rgb(252, 210, 158);
+    border-style: double;
+    border-width: 8px;
+}
+
+/*Selector de clase utilizada para el bloque de cada seccion*/
+.box{
+    background-color: bisque;
+    padding: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    font-size: 16px;
+    border-color:rgb(252, 210, 158);
+    border-style: double;
+    border-width: 8px;
+}
+
+/*Selector de clase utilizada para darle formato a el Menu de navegacion*/
+.nav{
+    background-color: #ffa500;
+    width:205px;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    top: 8px;
+    left: 0px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    border-color: #ffbc3f;
+    border-style: double;
+    border-width: 8px;
+}
+
+/*Selector de clase para el <ul> en el menu de navegación*/
+.nav_list{
+    margin: 0;
+}
+
+/*Selector de clase para dar formato a cada boton del menu de navegacion*/
+.nav_item{
+    display: block;
+    padding: 5px;
+    background-color: bisque;
+    margin-top: 10px;
+    border-style: groove;
+    border-width:5px;
+}
+
+/*Pseudoclase para cambiar el color de los botones al posicionar el selctor por encima*/
+.nav_item:hover{
+    background-color: #ffd587;
+}
+
+/*Clase para el formato de texto dentro de los botones*/
+.nav_link{
+    color: black;
+    text-decoration: none;
+}
+
+/*max-width para el contenedor*/
+#contenedor{
+    max-width: 100%;
+}
+
+/*Selector de etiqueta para dar formato a el pie de pagina*/
+footer{
+    background-color: bisque;
+    padding: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    border-color:rgb(252, 210, 158);
+    border-style: double;
+    border-width: 8px;
+}
+
+/*Selector de etiqueta para el fondo del sitio web*/
+body{
+    background-image: url(imagenes/fondo.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+/*Selector de clase para centrar elementos*/
+.centrado{
+    text-align: center;
+}
+
+/*Selector de etiqueta para acomodar y centrar las imagenes*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:rgb(252, 210, 158);
+    border-style: double;
+    border-width: 8px;
+}
